@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    padding-bottom: 40px ;
+}
+
+.legend {
+    font-weight: lighter;
+    font-size: 14px;
+    color: gray;
+    border-bottom: gray;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font: italic;
+}
+
+.main-title {
+    font-size: 400%;
+    font-family: Impact, fantasy;
+    font-weight: 400;
+}
+
+.author {
+    color:rgb(59,122, 183);
+}
+
+.bordertitle {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.main-picture {
+    padding-top: 20px;
+    max-width:100%;
+}
+
+.article {
+    text-align: justify;
+    padding-top: 20px;
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
+
+.bottomarticle {
+    border-top-style: solid ;
+    border-top-width: 1px ;
+    border-bottom-style: solid ;
+    border-bottom-width: 1px ;
+    height: 100px;
+    left: 0;
+    right: 30%;
+}
+
+footer {
+    padding-top: 40px;
+    background-color: white;
+    border-top-width: 3px ;
+    border-top-style: solid;
+}
