@@ -13,10 +13,11 @@ $DEVICE = ($iPod||$iPad||$iPhone||$Android||$iOS||$webOS||$Blackberry||$IEMobile
 
 if ($DEVICE !=true) {?>
 
-<?php header( 'Location: /index.html' ) ;  ?>
+<html> <h1> Essayez de l'utiliser sur un PC !</h1> </html>
 
 <?php }else{ ?> 
 
-<html> <h1> Essayez de l'utiliser sur un PC !</h1> </html>
+    <?php header( 'Location: /index.html' ) ;  ?>
+
 <!-- What you want for all mobile devices. Anything with all HTML codes --> 
 <?php } ?>
