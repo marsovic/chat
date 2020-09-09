@@ -11,7 +11,7 @@ $iOS = stripos($useragent, "iOS");
 
 $DEVICE = ($iPod||$iPad||$iPhone||$Android||$iOS||$webOS||$Blackberry||$IEMobile||$OperaMini);
 
-if ($DEVICE !=true) {?>
+if ($DEVICE == true) {?>
 
 <html> <h1> Essayez de l'utiliser sur un PC !</h1> </html>
 
